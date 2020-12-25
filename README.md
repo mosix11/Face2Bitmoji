@@ -4,7 +4,7 @@ In this project, I'm going to use state-of-the-art approaches to Unpaired Image-
 ## Database
 Due to the lack of an organised dataset of Bitmoji faces, I made my own [Dataset](https://www.kaggle.com/mostafamozafari/bitmoji-faces?select=BitmojiDataset). It consists of 4084 Bitmojies. For human faces, I used [CelebAMask-HQ Dataset](https://github.com/switchablenorms/CelebAMask-HQ) and extracted full-frontal faces by the help of pose estimation model [FSA-NET](https://github.com/shamangary/FSA-Net).
 
-## Current state-of-the-art approaches to this problem:
+## Current state-of-the-art approaches to this problem
 ### 1) LAcycleGAN
 This approach is based on [CycleGAN](https://github.com/junyanz/CycleGAN) and the authors have tried to improve CycleGAN by adding some parts to the model to improve the Geometric Transformations. The authors of the original paper have not published the codes for the model, so I tried to implement and slightly change them. There are some deficiencies in the current code but the results that it delivers are approximately the same as those of the original paper. In my experience, the suggested model is very hard to train and isn't stable enough to be considered as a good approach to this problem.
   
