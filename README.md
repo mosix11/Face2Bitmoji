@@ -1,5 +1,5 @@
 # Face2Bitmoji
-In this project, I'm going to use state-of-the-art approaches to Unpaired Image-to-Image Translation to tackle the problem of transforming human faces to cartoon faces (Bitmoji Faces) and try to improve them if possible.
+In this project, I'm going us an extended version of CycleGAN to inject auxiliary information to the network for the task of Unpaired Image-to-Image Translation to tackle the problem of transforming human faces to cartoon faces (Bitmoji Faces) and try to improve them if possible.
 
 ## Database
 Due to the lack of an organised dataset for Bitmoji faces, I made my own [Dataset](https://www.kaggle.com/mostafamozafari/bitmoji-faces?select=BitmojiDataset). It consists of 4084 Bitmojies. For human faces, I used [CelebAMask-HQ Dataset](https://github.com/switchablenorms/CelebAMask-HQ) and extracted full-frontal faces by the help of pose estimation model [FSA-NET](https://github.com/shamangary/FSA-Net).
